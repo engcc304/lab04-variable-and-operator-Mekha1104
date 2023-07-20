@@ -33,9 +33,10 @@ int main() {
 
      //--| YOUR CODE HERE
     
-    int EmployeesID [10] ;
-    float  hrs ;
+    char EmployeesID [10] ;
+    float hrs ;
     float Salary  ;
+    float Salaryperhrs ;
     
 
     printf( "Input the Employees ID : \n ") ;
@@ -43,10 +44,12 @@ int main() {
     printf( "Input the working hrs : \n ") ;
     scanf( "%f", &hrs ) ;
     printf( "Salary amount/hr : \n ") ;
-    scanf( "%f", &Salary ) ;
+    scanf( "%f", &Salaryperhrs ) ;
+
+    Salary = Salaryperhrs * hrs ;
     printf( "Expected Output : \n " ) ;
     printf( "Employees ID = %s\n",EmployeesID ) ;
-    printf( "Salary = U$ %0.2f",Salary *  hrs ) ;
+    printf( "Salary = U$ %0.2f",Salary ) ;
     
     return 0 ;
 }//end main function
