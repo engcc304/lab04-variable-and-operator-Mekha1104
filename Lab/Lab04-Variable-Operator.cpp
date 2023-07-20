@@ -36,15 +36,16 @@ int main() {
     int EmployeesID [10] ;
     float  hrs ;
     float Salary  ;
+    
 
-    printf( "Employees ID(Max. 10 chars) : \n ") ;
-    scanf( "%d", &EmployeesID ) ;
-    printf( "working hrs : \n ") ;
+    printf( "Input the Employees ID : \n ") ;
+    scanf( "%s", &EmployeesID ) ;
+    printf( "Input the working hrs : \n ") ;
     scanf( "%f", &hrs ) ;
-    printf( "mount/hr ; \n ") ;
+    printf( "Salary amount/hr : \n ") ;
     scanf( "%f", &Salary ) ;
     printf( "Expected Output : \n " ) ;
-    printf( "Employees ID = %d\n",EmployeesID ) ;
+    printf( "Employees ID = %s\n",EmployeesID ) ;
     printf( "Salary = U$ %0.2f",Salary *  hrs ) ;
     
     return 0 ;
