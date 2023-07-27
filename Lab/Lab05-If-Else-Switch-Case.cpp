@@ -44,8 +44,7 @@
 #include <stdio.h>
 
 int main() {
-        
-    //--| YOUR CODE HERE
+        //--| YOUR CODE HERE
     int score = 0 ;
     printf( "Please enter your score : " ) ;
     scanf( "%d" , &score ) ;
@@ -70,4 +69,4 @@ int main() {
          printf(" F ! ") ;
     }//end if
 return 0 ;
-//end main function
+}//end main function
