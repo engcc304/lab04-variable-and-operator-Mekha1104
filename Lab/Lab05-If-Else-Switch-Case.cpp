@@ -69,20 +69,5 @@ int main() {
     } else {
          printf(" F ! ") ;
     }//end if
-    return 0 ;
-//end funtcion
-
-
-
-    
-    
-    
-        
-
-
-
-    
-    
-
-    return 0 ;
-}//end main function
+return 0 ;
+//end main function
